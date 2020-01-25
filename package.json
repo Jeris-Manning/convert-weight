@@ -39,12 +39,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jeris-Manning/weight-conversion.git"
+    "url": "git+https://github.com/Jeris-Manning/convert-weight.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jeris-Manning/weight-conversion/issues"
+    "url": "https://github.com/Jeris-Manning/convert-weight/issues"
   },
-  "homepage": "https://github.com/Jeris-Manning/weight-conversion#readme"
+  "homepage": "https://github.com/Jeris-Manning/convert-weight#readme"
 }
