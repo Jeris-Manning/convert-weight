@@ -1,13 +1,4 @@
 import React, { useState, Fragment } from 'react';
-import {
-  Col,
-  Button,
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  FormText
-} from 'reactstrap';
 import Ingredients from './Ingredients';
 import Units from './Units';
 
@@ -45,7 +36,7 @@ const ConvertForm = () => {
         />
         <select name='units' value={units} onChange={handleChange}>
           <Units />
-        </select>{' '}
+        </select>
         <select name='ingredients' value={ingredients} onChange={handleChange}>
           <Ingredients />
         </select>
@@ -54,7 +45,6 @@ const ConvertForm = () => {
         </button>
         <button
           type='clear'
-          color='#ff11ff'
           onClick={() => {
             setConversion(initialConversion);
             setDisplay('0');
